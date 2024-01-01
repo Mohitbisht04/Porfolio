@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri&family=Montserrat&display=swap');
+:root
+{
+    --bs-navy: #3c01ff;
+    --bs-whit: #ffffff;
+    --bs-grey: #b2b2b2;
+    --bs-blu: #0171f9;
+    --bs-gre: #18b356;
+    --bs-bg: #f1ecec;
+    --bs--lig: #b3ef32;
+    --bs--lgry: #817f7f;
+    --bs--drkb: #051922;
+    --bs-org: #F28123;
+    --bs-blck: #000000;
+    --bs-red: #e1201d;
+    --bs-maroon: #cc2952;
+    --bs-sky: #29a7c6;
+    --bs-soil: #91ff9f5e;
+    --bs-magi: #b227d1;
+    --bs-voil: #5832f5;
+    --bs-fut: #222222;
+}
+
+.mht{
+    width: 18rem;
+    border-radius: 50%;
+    border: 0;
+}
+
+/* p{
+    margin: 0;
+} */
+
+.fsp
+{
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.bg-foot
+{
+    background: var(--bs-fut) !important;
+}
+
+.voil
+{
+    color: var(--bs-voil) !important;
+}
+
+.magi
+{
+    color: var(--bs-magi) !important;
+}
+
+.bg-soil
+{
+    background: var(--bs-soil) !important;
+}
+
+.maroon
+{
+    color: var(--bs-maroon) !important;
+}
+
+.bg-maroon
+{
+    background: var(--bs-maroon) !important;
+}
+
+.bg-sky
+{
+    background: var(--bs-sky) !important;
+}
+
+.bg-bs
+{
+    background: var(--bs-bg) !important;
+}
+
+.red
+{
+    color: var(--bs--red);
+}
+
+.bg-blck
+{
+    background: var(--bs-blck);
+}
+
+.blck
+{
+    color: var(--bs-blck) !important;
+}
+
+.org
+{
+    color: var(--bs-org) !important;
+}
+
+.bg-org
+{
+    background: var(--bs-org) !important;
+}
+
+.brdr
+{
+    border: 2px solid #F28123;
+}
+
+.drkb
+{
+    background: var(--bs--drkb) !important;
+}
+
+.lgry
+{
+    color: var(--bs--lgry) !important;
+}
+
+.mons
+{
+    font-family: Montserrat;
+}
+
+.back
+{
+    background: var(--bs--bg) !important;
+}
+
+.bg-navy
+{
+    background: var(--bs-navy);
+}
+
+.lig
+{
+    color: var(--bs--lig) !important;
+}
+
+.bg-blu
+{
+    background: var(--bs-blu) !important;
+}
+
+.gre
+{
+    color: var(--bs-gre) !important;
+}
+
+.bg-gre
+{
+    background: var(--bs-gre) !important;
+}
+
+.bg-wht
+{
+    background: var(--bs-whit) !important;
+}
+
+.wht
+{
+    color: var(--bs-whit) !important;
+}
+
+.gry
+{
+    color: var(--bs-grey) !important;
+}
+
+.bg-gry
+{
+    background: var(--bs-grey) !important;
+}
+
+.bg-lgry
+{
+    background: var(--bs--lgry);
+}
+
+.btn1{
+    background: var(--bs-voil) !important;
+    padding: 10px 25px;
+    font-family: Montserrat;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.btn1:hover{
+    background: var(--bs-magi) !important;
+    transition: 0.5s;
+}
+
+.btn6{
+    background: var(--bs-org) !important;
+    padding: 10px 25px;
+    font-family: Montserrat;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.btn6:hover{
+    background: var(--bs-whit) !important;
+    transition: 0.5s;
+    color: var(--bs-org);
+    border: 1px solid #F28123;
+}
+
+.btn5{
+    background: var(--bs-blu) !important;
+    padding: 10px 25px;
+    font-family: Montserrat;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.btn5:hover{
+    background: var(--bs-whit) !important;
+    transition: 0.5s;
+    color: var(--bs-blu);
+    border: 1px solid #0171f9;
+}
+
+.btn2{
+    background: var(--bs-red) !important;
+    padding: 10px 25px;
+    font-family: Montserrat;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.btn2:hover{
+    background: var(--bs-whit) !important;
+    transition: 0.5s;
+    color: var(--bs-blu);
+    border: 1px solid #e1201d;
+}
+
+.banner{
+        background: linear-gradient(90deg, #4b4db3, #5dacdd, #362961) !important;
+    position: relative;
+    overflow: hidden;
+}
+
+.btn7{
+    background: var(--bs-navy) !important;
+    padding: 10px 25px;
+    font-family: Montserrat;
+    border-radius: 12px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
