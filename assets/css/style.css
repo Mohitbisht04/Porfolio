@@ -244,7 +244,7 @@
 }
 
 .banner{
-        background: linear-gradient(90deg, #4b4db3, #5dacdd, #362961) !important;
+        background: white !important;
     position: relative;
     overflow: hidden;
 }
